@@ -1,9 +1,9 @@
 class WelcomeController < ApplicationController
-	def homepage
+	def index
 	end
-  def CurriculumVitae
+  def curriculumVitae
   end
 
-  def Contact
+  def contact
   end
 end

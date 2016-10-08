@@ -1,12 +1,14 @@
 Rails.application.routes.draw do
+  root 'Welcome#index'
   
-  get 'homepage' => 'welcome#index'
+  get 'index' => 'Welcome#index'
 
-  get 'curriculumVitae' => 'welcome#CurriculumVitae'
+  get 'CurriculumVitae' => 'Welcome#curriculumVitae'
 
-  get 'contact' => 'welcome/Contact'
+  get 'Contact' => 'Welcome#contact'
 
-  root 'welcome#index'
+  
+end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -62,4 +64,4 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
+
