@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  root 'Welcome#index'
   
   get 'index' => 'Welcome#index'
 
@@ -7,7 +6,7 @@ Rails.application.routes.draw do
 
   get 'Contact' => 'Welcome#contact'
 
-  
+  root 'Welcome#index'
 end
 
   # The priority is based upon order of creation: first created -> highest priority.
