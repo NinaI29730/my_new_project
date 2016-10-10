@@ -2,9 +2,9 @@ Rails.application.routes.draw do
   
   get 'index' => 'welcome#index'
 
-  get 'CurriculumVitae' => 'welcome#curriculumVitae'
+  get 'curriculumVitae' => 'welcome#curriculumVitae'
 
-  get 'Contact' => 'welcome#contact'
+  get 'contact' => 'welcome#contact'
 
   root 'welcome#index'
 end
