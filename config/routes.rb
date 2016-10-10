@@ -1,12 +1,12 @@
 Rails.application.routes.draw do
   
-  get 'index' => 'Welcome#index'
+  get 'index' => 'welcome#index'
 
-  get 'CurriculumVitae' => 'Welcome#curriculumVitae'
+  get 'CurriculumVitae' => 'welcome#curriculumVitae'
 
-  get 'Contact' => 'Welcome#contact'
+  get 'Contact' => 'welcome#contact'
 
-  root 'Welcome#index'
+  root 'welcome#index'
 end
 
   # The priority is based upon order of creation: first created -> highest priority.
