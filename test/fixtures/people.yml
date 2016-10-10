@@ -2,12 +2,14 @@
 
 one:
   name: MyString
-  age: MyString
   city: MyString
+  state: MyString
+  country: MyString
   twitter: MyString
 
 two:
   name: MyString
-  age: MyString
   city: MyString
+  state: MyString
+  country: MyString
   twitter: MyString
